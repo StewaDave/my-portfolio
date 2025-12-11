@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Programming Assigment Lab 3</title>
+</head>
+
+<body class="interactivePageBackground">
+
+<nav>
+    <a href="index.html" class="pageNav">Main</a>
+    <a href="about.html" class="pageNav">About</a>
+    <a href="Competition.html" class="pageNav">Competition</a>
+    <a href="SocialMedia.html" class="pageNav">Social Media</a>
+    <a href="Shop.html" class="pageNav">Shop</a>
+    <a href="Interactive.html" class="pageNav">Interactive Belt Page</a>
+</nav>
+
+<h1>Interactive Belt Page</h1>
+
+<p>There are 5 belt colors in BJJ.<br>
+    Click a button to change through belt colors
+</p>
+
+<div>
+    <input type="button" value="White Belt" onclick="whiteBelt()">
+    <input type="button" value="Blue Belt" onclick="blueBelt()">
+    <input type="button" value="Purple Belt" onclick="purpleBelt()">
+    <input type="button" value="Brown Belt" onclick="brownBelt()">
+    <input type="button" value="Black Belt" onclick="blackBelt()">
+</div>
+
+<div id="infoBox" style="display: none;">
+    <p id="whiteText" style="display:none;">White Belt: Learning the basics and fundamentals of BJJ. <br>
+        <a href="https://youtu.be/Z33qTzUMmEo?si=7zmFW3CNZIsDZ3xz" target="_blank">The Art of Skill | White Belt</a>
+    </p>
+
+    <p id="blueText" style="display:none;">Blue Belt: Starting to understand escapes and guard passing. <br>
+        <a href="https://youtu.be/ZMGAfMKFFww?si=Tqx9cfzAAdbHJIOA" target="_blank">The Art of Skill | Blue Belt</a>
+    </p>
+
+    <p id="purpleText" style="display:none;">Purple Belt: Creativity and strategy become stronger. <br>
+        <a href="https://youtu.be/s_1qm901Nnw?si=QUsJAqI0aNT7yPrR" target="_blank">The Art of Skill | Purple Belt</a>
+    </p>
+
+    <p id="brownText" style="display:none;">Brown Belt: Refining technique and preparing for black belt. <br>
+        <a href="https://youtu.be/p5FC6ikTn-w?si=9Z_o1tvYd_7BtE4r" target="_blank">The Art of Skill | Brown Belt</a>
+    </p>
+
+    <p id="blackText" style="display:none;">Black Belt: Years of dedication and mastery. <br>
+        <a href="https://youtu.be/tCsMcC4-tw8?si=N6L9AkcVFUVtHGGE" target="_blank">The Art of Skill | Black Belt</a>
+    </p>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
